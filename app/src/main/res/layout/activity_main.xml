@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qq"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="MASUKAN NILAI MAHASISWA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nim_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="30dp"
+        android:hint="Masukkan NIM "
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFF6AC" />
+
+    <EditText
+        android:id="@+id/nama_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Masukkan nama"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFF6AC" />
+
+    <EditText
+        android:id="@+id/nilai_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Masukkan nilai"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFF6AC" />
+
+    <Button
+        android:id="@+id/btn_proses"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#FFF3EEEE"
+        android:text="PROSES "
+        android:textStyle="bold" />
+
+</LinearLayout>
